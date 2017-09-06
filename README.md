@@ -1,12 +1,18 @@
 # DP_000
 Designing Programs { a course on computational design for graphic designers }
 
-# Designing Programs
-### mark webster
+### Introduction
 
 
 - We can list some **important** information this way
   - Or *simply this way* (Two spaces is all you need.)
+  
+  
+  - Programming in Art
+    
+  - The *algorithmic revolution*
+  
+  ...lorem ipsum
 
 Adding source code examples is easy
 ```java
