@@ -17,7 +17,8 @@ var afficher = false;
 var maCouleur;
 
 function setup() {
-  createCanvas(680, 360);
+  var canvas = createCanvas(680, 360);
+  canvas.parent('canvas-pos');
   background(33);
   smooth();
   noStroke();
