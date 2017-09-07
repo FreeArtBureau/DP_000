@@ -10,30 +10,28 @@ function setup() {
   background(33);
   smooth();
   noStroke();
-
-  // On fait appel à notre fonction
-  fill(0, 0, 255);
-  croix(160, 185, 300);
-
-  fill(150, 255, 0);
-  croix(350, 110, 200);
-
-  fill(255, 200, 0);
-  croix(425, 240, 100);
-
-  fill(255, 0, 0);
-  croix(550, 185, 175);
 }
 
 function draw() {
-  //background(33);
+  background(33);
+
+  // On fait appel à nos 2 fonctions : oscillate & croix
+  var taille = oscillate(0.015, 150);
+  fill(0,0,255);
+  croix(200, height/2, taille);
+
+  var taille2 = oscillate(0.030, 300);
+  fill(255,200,0);
+  croix(450, height/2, taille2);
 }
 
 /////////////////////////// FUNCTIONS ////////////////////////////
-// Voici notre fonction
-// - Elle a un nom désigné par nous même
-// - Des arguments entre parathèses [ATTENTION] - Ceux ne sont pas des variables.
-// - la définition/les instructions entre accolades
+// Voici notre nouvelle fonction qui retourne une valeur
+function oscillate( _freq,  _valMax) {
+  var val = sin(frameCount*_freq) * _valMax;
+  return val;
+}
+
 
 function croix(_cntX, _cntY, _taille) {
   rectMode(CENTER);
