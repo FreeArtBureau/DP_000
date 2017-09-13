@@ -22,8 +22,8 @@ function setup() {
 
 function draw() {
   background(33);
-  for (int y=marge; y<height-marge; y+=intervalle) {
-    for (int x=marge; x<width-marge; x+=intervalle) {
+  for (var y=marge; y<height-marge; y+=intervalle) {
+    for (var x=marge; x<width-marge; x+=intervalle) {
 
       ellipse(x, y, dia, dia);
     }
