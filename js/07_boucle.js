@@ -8,6 +8,7 @@ function setup() {
   canvas.parent('canvas-pos');
   background(33);
   smooth();
+  noStroke();
   rectMode(CENTER);
   // la structure de la boucle for est comprise :
   // - une variable avec une valeur initiale > int i=0;
