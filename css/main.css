@@ -31,6 +31,7 @@ body {
     font-family:'firaLight';
     line-height: 1.4em;
     margin: 60px auto;
+    margin: 2em 0 1.5em auto;
     width: 70%;
 }
 
@@ -44,7 +45,7 @@ a:hover {
 }
 
 h1 {
-    margin: 0 0 1em auto;
+    margin: 2em 0 1em auto;
     font-family: "firaBold";
     font-size: 4em;
 }
