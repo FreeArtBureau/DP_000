@@ -3,8 +3,32 @@
  * https://freeartbureau.github.io/fundamentals/
  */
 
+ @font-face {
+    font-family: 'firaMono';
+    src:url('../fonts/fira/FiraMono-Regular.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'firaLight';
+    src:url('../fonts/firaSans/FiraSans-Light.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'firaBold';
+    src:url('../fonts/firaSans/FiraSans-Bold.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'FiraLightItalic';
+    src:url('../fonts/firaSans/FiraSans-LightItalic.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+}
+
 body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'firaLight';
     margin: 60px auto;
     width: 70%;
 }
@@ -19,7 +43,13 @@ a:hover {
 }
 
 h1 {
+    font-family: "firaBold";
     font-size: 4em;
+}
+
+h2 {
+  color: blue;
+  text-decoration: underline;
 }
 
 h4 {
@@ -40,6 +70,7 @@ footer {
 
 
 nav {
+  font-family: "firaMono";
   font-size: 1.0em;
   color: blue;
 }
@@ -47,4 +78,8 @@ nav {
 hr {
   margin-left: 0;
   width: 680px;
+}
+
+li {
+  margin-left: 1.5em;
 }
