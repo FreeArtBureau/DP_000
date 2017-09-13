@@ -49,7 +49,7 @@ function keyTyped(){
 function infos(){
  fill(255);
  textSize(18);
- text("Appuyer sur a | b | c", 10, height-45);
+ text("Appuyer sur r", 10, height-45);
  textSize(12);
  text("Couleur choisie : " + myColour, 10, height-25);
  text("Taille choisie : " + dia, 10, height-10);
