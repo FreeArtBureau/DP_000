@@ -11,7 +11,7 @@ function setup() {
   background(33);
   smooth();
   rectMode(CENTER);
-  myColour = color(255)
+  myColour = color(255);
 }
 
 function draw() {

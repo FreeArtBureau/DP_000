@@ -3,8 +3,8 @@
  * Random
  */
 
-var myColour = color(255);
-var dia = 250;
+var myColour;
+var dia;
 
 function setup() {
   var canvas = createCanvas(680, 360);
@@ -12,7 +12,8 @@ function setup() {
   background(33);
   smooth();
   rectMode(CENTER);
-
+  myColour = color(255);
+  dia = 250;
 }
 
 function draw() {
