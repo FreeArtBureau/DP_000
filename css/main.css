@@ -48,10 +48,8 @@ h1 {
 }
 
 h2 {
-  font-family: "FiraLightItalic";
+  font-family: "firaBold";
   font-size: 1.7em;
-  color: orange;
-  text-decoration: underline;
 }
 
 h4 {
@@ -87,4 +85,7 @@ hr {
 
 li {
   margin-left: 1.5em;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
 }
