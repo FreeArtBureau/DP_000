@@ -29,6 +29,7 @@
 
 body {
     font-family:'firaLight';
+    line-height: 1.4em;
     margin: 60px auto;
     width: 70%;
 }
@@ -43,6 +44,7 @@ a:hover {
 }
 
 h1 {
+    margin: 0 0 1em auto;
     font-family: "firaBold";
     font-size: 4em;
 }
@@ -59,7 +61,7 @@ h4 {
 
 
 p {
-    margin: 0, 0, 0, 3;
+    margin: 0 0 1em auto;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
