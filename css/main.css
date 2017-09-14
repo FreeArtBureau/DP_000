@@ -29,7 +29,6 @@
 
 body {
     font-family:'firaLight';
-    line-height: 1.4em;
     margin: 60px auto;
     width: 70%;
 }
@@ -39,31 +38,41 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: green;
     text-decoration: underline;
 }
 
 h1 {
     font-family: "firaBold";
     font-size: 4em;
+    margin-bottom: 0.1em;
 }
 
 h2 {
   font-family: "firaBold";
-  font-size: 1.7em;
+  font-size: 1.6em;
+  line-height: 1.6em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 h4 {
-    margin: 0;
-    font-size: 0.9em;
+  font-family: "FiraLightItalic";
+  font-size: 0.9em;
+  line-height: 0.3em;
+  margin-bottom: 2%;
 }
 
+.info{
+    font-family: "firaBold";
+    font-size: 0.9em;
+    line-height: 0.6em;
+}
 
 p {
-    margin: 0 0 1em 0;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-family:'firaLight';
+  font-size: 1.4em;
+  line-height: 1.7em;
 }
 
 footer {
@@ -76,17 +85,9 @@ nav {
   font-family: "firaMono";
   font-size: 1.0em;
   color: blue;
-  margin-bottom: : 10px;
 }
 
 hr {
   margin-left: 0;
   width: 680px;
-}
-
-li {
-  margin-left: 1.5em;
-  font-size: 1.5em;
-  line-height: 1.4em;
-  color: #333;
 }
