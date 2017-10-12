@@ -58,15 +58,16 @@ h2 {
 
 h4 {
   font-family: "FiraLightItalic";
-  font-size: 0.9em;
-  line-height: 0.3em;
+  font-size: 1.2em;
+  line-height: 0.5em;
   margin-bottom: 2%;
 }
 
 .info{
     font-family: "firaMono";
-    font-size: 1.0em;
+    font-size: 0.9em;
     line-height: 0.8em;
+    color: red;
 }
 
 p {
