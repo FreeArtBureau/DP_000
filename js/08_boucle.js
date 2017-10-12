@@ -14,9 +14,9 @@ function setup() {
   smooth();
   noStroke();
   rectMode(CENTER);
-  marge = 25;
+  marge = 50;
   //dia = 10;
-  intervalle = 10;
+  intervalle = 50;
 
 }
 
