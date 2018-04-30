@@ -93,6 +93,17 @@ hr {
   width: 680px;
 }
 
+.body_text {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  /*margin: 0 auto;*/
+  margin: 5px auto 6px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
 .cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -105,3 +116,26 @@ hr {
   padding: 0.2em;
 
 }
+
+/**
+ * Transitions
+ */
+
+ img {
+   max-width: 100%;
+ 	 height: auto;
+ }
+
+
+ img.grow {
+     -webkit-transition: -webkit-transform 0.3s; /* Safari */
+      transition: transform 0.3s;
+ }
+
+ img.grow:hover {
+       -webkit-transition-timing-function: ease-out; /* Safari and Chrome */
+        transition-timing-function: ease-out;
+       -webkit-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+       transform: scale(1.1);
+ }
