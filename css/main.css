@@ -92,3 +92,16 @@ hr {
   margin-left: 0;
   width: 680px;
 }
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr;
+  grid-gap: 50px;
+}
+
+.cards div{
+  margin-left: 20px;
+  padding: 0.2em;
+
+}
